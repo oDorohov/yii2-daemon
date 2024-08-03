@@ -1,0 +1,22 @@
+{
+    "name": "odorohov/yii2-daemon",
+    "description": "Daemon for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension", "daemon"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Oleg Dorohov,
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "ext-pcntl": "*",
+        "ext-posix": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "vyants\\daemon\\": ""
+        }
+    }
+}
